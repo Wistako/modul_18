@@ -8,7 +8,7 @@ import plotly.express as px
 import albumentations as A
 
 # Ładowanie modelu
-model = tf.keras.models.load_model('f_mnist_model.h5')
+model = tf.keras.models.load_model('f_mnist_model_old.h5')
 
 # Nazwy klas w Fashion MNIST
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',

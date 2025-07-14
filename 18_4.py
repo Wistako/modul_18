@@ -97,8 +97,8 @@ f_mnist_model = Sequential([
     Flatten(input_shape=(28, 28)),
     Dense(1000, activation='mish'),
     Dense(300, activation='mish'),
-    Dense(150, activation='relu'),
-    Dense(50, activation='relu'),
+    Dense(150, activation='mish'),
+    Dense(50, activation='mish'),
     Dense(10, activation='softmax')
 ])
 
