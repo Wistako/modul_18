@@ -1,0 +1,5 @@
+dash==2.14.2
+pillow==10.2.0
+tensorflow==2.15.0
+plotly==5.18.0
+numpy==1.24.3 
